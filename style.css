@@ -20,6 +20,7 @@ body{
     overflow-x: hidden;
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 header{
@@ -251,7 +252,7 @@ span{
 @media(max-width:995px){
     .home{
         flex-direction: column;
-        margin: 5rem 4rem;
+        /* margin: 5rem 4rem; */
     }
 
     .home .home-content h3{
